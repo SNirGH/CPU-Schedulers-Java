@@ -30,5 +30,28 @@ public class Main {
         fcfs.add(p7);
         fcfs.add(p8);
         fcfs.start();
+
+//        SJF sjf = new SJF();
+//        sjf.add(p1);
+//        sjf.add(p2);
+//        sjf.add(p3);
+//        sjf.add(p4);
+//        sjf.add(p5);
+//        sjf.add(p6);
+//        sjf.add(p7);
+//        sjf.add(p8);
+//        sjf.start();
+
+//        MLFQ mlfq = new MLFQ();
+//        mlfq.add(p1);
+//        mlfq.add(p2);
+//        mlfq.add(p3);
+//        mlfq.add(p4);
+//        mlfq.add(p5);
+//        mlfq.add(p6);
+//        mlfq.add(p7);
+//        mlfq.add(p8);
+//        mlfq.start();
+
     }
 }

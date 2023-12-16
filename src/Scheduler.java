@@ -39,5 +39,6 @@ public class Scheduler {
         System.out.println("Turnaround Time Average: " + String.format("%.2f", turnaroundTimeAvg));
         System.out.println("Response Time Average: " + String.format("%.2f", responseTimeAvg));
         System.out.println("\nCPU Utilization: " + String.format("%.2f", ((double) totalTime / executionTime) * 100.0) + "%");
+        System.out.println("Final Execution Time: " + executionTime);
     }
 }

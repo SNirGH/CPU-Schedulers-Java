@@ -85,7 +85,21 @@ public class Process {
         return cpuBursts;
     }
 
+    public int getFirstCpuBurst() { return cpuBursts.getFirst(); }
+
+    public void setFirstCpuBurst(int x) {
+        cpuBursts.set(0, x);
+    }
+
     public ArrayDeque<Integer> getIoBursts() {
         return ioBursts;
+    }
+
+    public int getQueue() {
+        return queue;
+    }
+
+    public void setQueue(int queue) {
+        this.queue = queue;
     }
 }
